@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doguito Petshop | Productos</title>
+        <link rel = "shortcut icon" href = "../assets/img/doguitoadm.svg">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "../assets/css/base/base.css">
+        <link rel = "stylesheet" href = "../assets/css/componentes/header.css">
+        <link rel = "stylesheet" href = "../assets/css/lista_productos.css">
+        <link rel = "stylesheet" href = "../assets/css/componentes/table.css">
+        <link rel = "stylesheet" href = "../assets/css/componentes/button.css">
+        <link rel = "stylesheet" href = "../assets/css/componentes/modal.css">
+    </head>
+    <body>
+        <header class="header container">
+            <img src="../assets/img/doguitoadm.svg" alt="Logotipo Doguito" class="header__logo">
+            <nav>
+                <ul class="header__list-nav">
+                    <li class="header__link"></li><a href="#">Dashboard</a>
+                    <li class="header__link"></li><a href="./lista_productos.html">Productos</a>
+                    <li class="header__link"></li><a href="./lista_cliente.html">Clientes</a>
+                    <li class="header__link"></li><a href="#">Pets</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="productos-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table__column--p">Nombre</th>
+                        <th class="table__column--n">Precio</th>
+                        <th class="table__column--g">Descripción</th>
+                        <th class="table__column--m">
+                            <a href="./registrar_producto.html" class = "simple-button simple-button--add">Nuevo Producto</a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody data-table>
+                </tbody>
+            </table>
+        </main>
+        <script type = "module" src="../controllers/products.controller.js"></script>
+    </body>
+</html>

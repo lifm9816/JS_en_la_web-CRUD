@@ -1,0 +1,39 @@
+{
+  "perfil": [
+    {
+      "nombre": "Amy Martínez Peláez",
+      "email": "amymp1370@gmail.com",
+      "id": "a34a8b16-9612-4c57-87c2-01abc039acb5"
+    },
+    {
+      "nombre": "Luis Ignacio Flores Martínez",
+      "email": "lifm1698@outlook.com",
+      "id": "fb77c37d-0a46-4756-bfd6-c054d59ed6c2"
+    },
+    {
+      "nombre": "Harry Potter",
+      "email": "harry@gmail.com",
+      "id": "b9b1049a-5850-4b4e-a7f3-d549a05deed5"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Croquetas para perro",
+      "precio": 375,
+      "descripcion": "Dog Chow - Perro adulto y mediano - 7.5kg",
+      "id": 1
+    },
+    {
+      "nombre": "Croquetas para gato",
+      "precio": "500",
+      "descripcion": "Cat-Chow - 10 kg- Gato Adulto",
+      "id": "67381843-655b-4056-b227-300819a66bd8"
+    },
+    {
+      "nombre": "Pelota para perro",
+      "precio": "300",
+      "descripcion": "Pelota de colores para perro pequeño",
+      "id": "1d17d6f2-6dc6-4e61-bc60-c5e06e6e709e"
+    }
+  ]
+}
